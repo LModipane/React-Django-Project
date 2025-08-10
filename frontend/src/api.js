@@ -6,7 +6,7 @@ import axios from 'axios';
 import { ACCESS_TOKEN_ID } from './constants';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL
+	baseURL: import.meta.env.VITE_API_URL ?? '/choreo-apis/react-django-project/backend/v1',
 });
 
 api.interceptors.request.use(
