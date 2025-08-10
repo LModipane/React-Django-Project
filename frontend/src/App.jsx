@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Navigate, Route } from 'react-router-dom';
 import { NotFound, Explore, LoginPage, Register } from './pages';
-import ProjectedRoute from './components/projectedRoute';
+import ProjectedRoute from './components/ProjectedRoute';
 
 function App() {
 	return (
