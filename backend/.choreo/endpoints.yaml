@@ -3,6 +3,7 @@ schemaVersion: "1.2"
 endpoints:
     - name: rest-api-be2
       port: 8000
+      context: /
       displayName: Rest API
       service:
         basePath: /
